@@ -10932,6 +10932,44 @@
   "how": "Built on the Newton physics system; humans or coding agents iteratively edit solver, contact model and parameters to match observed behavior."
  },
  {
+  "id": "pyrua-datafarm",
+  "name": "PyRUA-DataFarm",
+  "title": "PyRUA-DataFarm: LLM Agent as a Cost-Efficient Teleoperator for Real-Ready Robot Data",
+  "year": 2026,
+  "venue": "arXiv",
+  "kind": "method",
+  "category": "m4-program",
+  "paper": "https://arxiv.org/abs/2611.05320",
+  "code": "https://github.com/DAGroup-PKU/PyRUA-Lean/tree/DataFarm",
+  "project": "https://dagroup-pku.github.io/PyRUA-Lean/DataFarm/",
+  "github_owner": "DAGroup-PKU",
+  "institution": "Peking University",
+  "input": [
+   "multi-view video",
+   "interaction",
+   "text"
+  ],
+  "output": "executable simulation task (scene, expert controller, success judge) and photorealistic multi-view robot data",
+  "simulator": "SAPIEN, Isaac Sim",
+  "builder_tag": "LLM / agent",
+  "physics": [
+   "rigid",
+   "articulated",
+   "cloth"
+  ],
+  "evaluation": "Real-robot pi0.5 policy success across five manipulation tasks against teleoperated data (93 vs. 84 in 100 in-distribution trials; 87 vs. 46 under unseen tablecloth and lighting), plus KID visual fidelity and render-simulator alignment.",
+  "eval_types": [
+   "appearance",
+   "downstream policy"
+  ],
+  "generalization": {
+   "level": "yes",
+   "note": "Policies trained solely on farm-generated data transfer zero-shot to five real-robot tasks and stay robust under unseen tablecloths and coloured lighting."
+  },
+  "summary": "A coding agent turns a data request and one real calibration episode into an executable simulation task and photorealistic, action-labelled multi-view data for real-robot policy training.",
+  "how": "The agent grounds the scene and cameras from one calibration episode, synthesizes the SAPIEN or Isaac Sim task, a frozen hidden success judge, and an expert controller, then renders synchronized multi-view rollouts with an edge- and real-image-conditioned video model before independent review certifies admission."
+ },
+ {
   "id": "sceneagent",
   "name": "SceneAgent",
   "title": "SceneAgent: An Agentic Pipeline from 3D and 4D Captures to Simulation Environments",
