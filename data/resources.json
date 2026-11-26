@@ -1,0 +1,17 @@
+{
+  "note": "News entries (newest first) and starter resources shown in the README. Simulator counts are computed from the simulator field of works.json by matching each entry's match terms.",
+  "news": [
+    {"date": "2026-11-22", "text": "Roadmap of key works, a milestone table, simulators used across the list, a contributing guide and a filterable web page."},
+    {"date": "2026-11-19", "text": "Second edition: 289 works sorted by what they deliver, with figures generated from data."}
+  ],
+  "simulators": [
+    {"name": "Material Point Method (MPM)", "match": ["MPM"], "url": "https://github.com/taichi-dev/taichi", "note": "continuum solids, fluids and granular matter; often written in Taichi or Warp"},
+    {"name": "MuJoCo", "match": ["MuJoCo"], "url": "https://github.com/google-deepmind/mujoco", "note": "rigid and articulated bodies, robots"},
+    {"name": "NVIDIA Isaac Sim / Isaac Lab", "match": ["Isaac"], "url": "https://github.com/isaac-sim/IsaacLab", "note": "GPU robot simulation with photoreal rendering"},
+    {"name": "PyBullet", "match": ["Bullet"], "url": "https://github.com/bulletphysics/bullet3", "note": "rigid and articulated bodies"},
+    {"name": "Blender", "match": ["Blender"], "url": "https://www.blender.org", "note": "scenes, rendering and its physics engines"},
+    {"name": "SAPIEN / ManiSkill", "match": ["SAPIEN", "ManiSkill"], "url": "https://github.com/haosulab/ManiSkill", "note": "articulated objects and manipulation"},
+    {"name": "NVIDIA Warp", "match": ["Warp"], "url": "https://github.com/NVIDIA/warp", "note": "differentiable GPU simulation in Python"},
+    {"name": "Drake", "match": ["Drake"], "url": "https://github.com/RobotLocomotion/drake", "note": "model-based robotics, contact"}
+  ]
+}

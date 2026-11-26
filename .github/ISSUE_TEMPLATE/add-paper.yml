@@ -1,0 +1,48 @@
+name: Add a paper
+description: Suggest a work for the list
+title: "[Add] "
+labels: ["add paper"]
+body:
+  - type: input
+    id: title
+    attributes:
+      label: Paper title
+    validations:
+      required: true
+  - type: input
+    id: links
+    attributes:
+      label: Links
+      description: Paper (arXiv or venue), code, project page
+    validations:
+      required: true
+  - type: input
+    id: venue
+    attributes:
+      label: Venue and year
+      placeholder: "CVPR 2026, or arXiv 2026"
+  - type: dropdown
+    id: category
+    attributes:
+      label: What does it deliver?
+      description: See CONTRIBUTING.md for the questions that decide the category
+      options:
+        - Physical twin, parameters fitted to its own motion
+        - Physical twin, parameters from priors or by hand
+        - Simulation-ready asset (URDF / MJCF / USD)
+        - Scene-level simulation or digital twin
+        - Executable simulation program
+        - Learned simulator
+        - "Benchmark: deliver a runnable simulation"
+        - "Benchmark: predict or answer"
+        - "Benchmark: generate the future"
+        - "Benchmark: does the simulator match reality?"
+        - Dataset
+        - Survey
+        - Not sure
+    validations:
+      required: true
+  - type: textarea
+    id: summary
+    attributes:
+      label: One sentence on what it does

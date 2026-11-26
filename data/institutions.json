@@ -1,0 +1,592 @@
+{
+ "1X Technologies": {
+  "url": "https://www.1x.tech",
+  "logo": "assets/institutions/1x-technologies.png",
+  "logo_source": "https://www.1x.tech/favicon/favicon-32x32.png"
+ },
+ "A*STAR": {
+  "url": "https://www.a-star.edu.sg",
+  "logo": "assets/institutions/a-star.png",
+  "logo_source": "https://www.a-star.edu.sg/api/media/867ab78f-c433-4489-9de0-51f3937f384c/favicon.ico"
+ },
+ "Aalto University": {
+  "url": "https://www.aalto.fi",
+  "logo": "assets/institutions/aalto-university.png",
+  "logo_source": "https://www.aalto.fi/sites/default/files/favicons/safari-pinned-tab.svg"
+ },
+ "Aether AI": {
+  "url": "https://aetherlabs.ai/",
+  "logo": "assets/institutions/aether-ai.png",
+  "logo_source": "https://github.com/aetherlabsai.png"
+ },
+ "Allen Institute for AI": {
+  "url": "https://allenai.org",
+  "logo": "assets/institutions/allen-institute-for-ai.png",
+  "logo_source": "https://allenai.org/icon.png?56c26b049606f4e5"
+ },
+ "Archon Robotics": {
+  "url": "https://www.archon.tech",
+  "logo": "assets/institutions/archon-robotics.png",
+  "logo_source": "https://www.archon.tech/apple-touch-icon.png"
+ },
+ "Arizona State University": {
+  "url": "https://www.asu.edu",
+  "logo": "assets/institutions/arizona-state-university.png",
+  "logo_source": "https://www.asu.edu/themes/custom/asu_edu/favicon.ico"
+ },
+ "Australian National University": {
+  "url": "https://www.anu.edu.au",
+  "logo": "assets/institutions/australian-national-university.png",
+  "logo_source": "https://d1zkbwgd2iyy9p.cloudfront.net/themes/custom/webstyle/favicon.ico"
+ },
+ "BIGAI": {
+  "url": "https://www.bigai.ai",
+  "logo": "assets/institutions/bigai.png",
+  "logo_source": "https://www.bigai.ai/wp-content/uploads/2022/10/cropped-80x80-1-192x192.png"
+ },
+ "Beijing Innovation Center of Humanoid Robotics": {
+  "url": "https://x-humanoid.com",
+  "logo": "assets/institutions/beijing-innovation-center-of-humanoid-robotics.png",
+  "logo_source": "https://www.x-humanoid.com/fav2.png"
+ },
+ "Beijing Institute of Technology": {
+  "url": "https://www.bit.edu.cn",
+  "logo": "assets/institutions/beijing-institute-of-technology.png",
+  "logo_source": "https://www.bit.edu.cn/images/gb20190805/footer_logo.png"
+ },
+ "Bielefeld University": {
+  "url": "https://www.uni-bielefeld.de",
+  "logo": "assets/institutions/bielefeld-university.png",
+  "logo_source": "https://commons.wikimedia.org/wiki/File:Universit%C3%A4t_Bielefeld_Logo.svg"
+ },
+ "ByteDance": {
+  "url": "https://www.bytedance.com",
+  "logo": "assets/institutions/bytedance.png",
+  "logo_source": "https://lf3-static.bytednsdoc.com/obj/eden-cn/shjpmmv_ljuhklafi/ljhwZthlaukjlkulzlp/images/Pn04bTfD5oKbB3x1NFLcQ3Bxn1b-20261029135132-20261029150506.png"
+ },
+ "CUHK": {
+  "url": "https://www.cuhk.edu.hk",
+  "logo": "assets/institutions/cuhk.png",
+  "logo_source": "https://en.wikipedia.org/wiki/File:Emblem_of_CU.png"
+ },
+ "CUHK-Shenzhen": {
+  "url": "https://www.cuhk.edu.cn",
+  "logo": "assets/institutions/cuhk-shenzhen.png",
+  "logo_source": "https://en.wikipedia.org/wiki/File:Emblem_of_CU.png"
+ },
+ "Caltech": {
+  "url": "https://www.caltech.edu",
+  "logo": "assets/institutions/caltech.png",
+  "logo_source": "https://www.caltech.edu/static/core/img/favicon-192.png?v=7.15.4"
+ },
+ "Cardiff University": {
+  "url": "https://www.cardiff.ac.uk",
+  "logo": "assets/institutions/cardiff-university.png",
+  "logo_source": "https://www.google.com/s2/favicons?domain=www.cardiff.ac.uk&sz=128"
+ },
+ "Carnegie Mellon University": {
+  "url": "https://www.cmu.edu",
+  "logo": "assets/institutions/carnegie-mellon-university.png",
+  "logo_source": "https://www.cmu.edu/themes/custom/cmu_base/favicon.ico"
+ },
+ "Columbia University": {
+  "url": "https://www.columbia.edu",
+  "logo": "assets/institutions/columbia-university.png",
+  "logo_source": "https://www.google.com/s2/favicons?domain=www.columbia.edu&sz=128"
+ },
+ "Cornell University": {
+  "url": "https://www.cornell.edu",
+  "logo": "assets/institutions/cornell-university.png",
+  "logo_source": "https://www.cornell.edu/favicon.svg"
+ },
+ "Czech Technical University in Prague": {
+  "url": "https://www.cvut.cz",
+  "logo": "assets/institutions/czech-technical-university-in-prague.png",
+  "logo_source": "https://www.cvut.cz/sites/default/files/favicon.ico"
+ },
+ "Dartmouth College": {
+  "url": "https://home.dartmouth.edu",
+  "logo": "assets/institutions/dartmouth-college.png",
+  "logo_source": "https://t1.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&size=256&url=https%3A%2F%2Fhome.dartmouth.edu"
+ },
+ "Deemos Tech": {
+  "url": "https://www.deemos.com",
+  "logo": "assets/institutions/deemos-tech.png",
+  "logo_source": "https://hyper3d.ai/favicon-32x32.webp"
+ },
+ "ENS": {
+  "url": "https://www.ens.psl.eu",
+  "logo": "assets/institutions/ens.png",
+  "logo_source": "https://www.ens.psl.eu/themes/ens/android-icon-192x192.png"
+ },
+ "ETH Zurich": {
+  "url": "https://ethz.ch",
+  "logo": "assets/institutions/eth-zurich.png",
+  "logo_source": "https://ethz.ch/etc/designs/ethz/img/icons/ETH-APP-Icons-Theme-white/192-xxxhpdi.png"
+ },
+ "Fudan University": {
+  "url": "https://www.fudan.edu.cn",
+  "logo": "assets/institutions/fudan-university.png",
+  "logo_source": "https://en.wikipedia.org/wiki/File:Fudan_University_Logo.svg"
+ },
+ "Georgia Tech": {
+  "url": "https://www.gatech.edu",
+  "logo": "assets/institutions/georgia-tech.png",
+  "logo_source": "https://www.gatech.edu/themes/custom/gatech/favicon.ico"
+ },
+ "GigaAI": {
+  "url": "https://gigaai.cc",
+  "logo": "assets/institutions/gigaai.png",
+  "logo_source": "https://gigaai.cc/assets/favicon-hKtW4-r9.ico"
+ },
+ "Google": {
+  "url": "https://research.google",
+  "logo": "assets/institutions/google.png",
+  "logo_source": "https://www.gstatic.com/images/branding/googleg_gradient/1x/googleg_gradient_standard_20dp.png"
+ },
+ "Google DeepMind": {
+  "url": "https://deepmind.google",
+  "logo": "assets/institutions/google-deepmind.png",
+  "logo_source": "https://www.google.com/s2/favicons?domain=deepmind.google&sz=128"
+ },
+ "Guilin University of Electronic Technology": {
+  "url": "https://www.guet.edu.cn",
+  "logo": "assets/institutions/guilin-university-of-electronic-technology.png",
+  "logo_source": "https://www.guet.edu.cn/_upload/tpl/01/39/313/template313/favicon.ico"
+ },
+ "HKUST": {
+  "url": "https://hkust.edu.hk",
+  "logo": "assets/institutions/hkust.png",
+  "logo_source": "https://hkust.edu.hk/themes/custom/hkust/favicon.ico"
+ },
+ "HKUST (Guangzhou)": {
+  "url": "https://www.hkust-gz.edu.cn",
+  "logo": "assets/institutions/hkust-guangzhou.png",
+  "logo_source": "https://material.hkust-gz.edu.cn/wp-content/uploads/2023/04/cropped-favicon-1-1-192x192.png"
+ },
+ "Hacettepe University": {
+  "url": "https://www.hacettepe.edu.tr",
+  "logo": "assets/institutions/hacettepe-university.png",
+  "logo_source": "https://www.hacettepe.edu.tr/fav_ico/favicon-96x96.png"
+ },
+ "Hamad Bin Khalifa University": {
+  "url": "https://www.hbku.edu.qa",
+  "logo": "assets/institutions/hamad-bin-khalifa-university.png",
+  "logo_source": "https://www.hbku.edu.qa/sites/default/files/hbku-favicon.ico"
+ },
+ "Harbin Institute of Technology": {
+  "url": "https://www.hit.edu.cn",
+  "logo": "assets/institutions/harbin-institute-of-technology.png",
+  "logo_source": "https://en.wikipedia.org/wiki/File:HIT_logo.gif"
+ },
+ "Harvard University": {
+  "url": "https://www.harvard.edu",
+  "logo": "assets/institutions/harvard-university.png",
+  "logo_source": "https://www.harvard.edu/wp-content/uploads/2020/10/cropped-logo-branding-compressed.png?w=192"
+ },
+ "Hong Kong Baptist University": {
+  "url": "https://www.hkbu.edu.hk",
+  "logo": "assets/institutions/hong-kong-baptist-university.png",
+  "logo_source": "https://www.hkbu.edu.hk/etc.clientlibs/hongkongbaptistuniversity/clientlibs/clientlib-site/resources/images/favicon/hkbu-favicon.png"
+ },
+ "Huazhong University of Science and Technology": {
+  "url": "https://www.hust.edu.cn",
+  "logo": "assets/institutions/huazhong-university-of-science-and-technology.png",
+  "logo_source": "https://en.wikipedia.org/wiki/File:Huazhong_University_of_Science_and_Technology_logo.png"
+ },
+ "Hubei University": {
+  "url": "https://www.hubu.edu.cn",
+  "logo": "assets/institutions/hubei-university.png",
+  "logo_source": "https://t1.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&size=256&url=https%3A%2F%2Fwww.hubu.edu.cn"
+ },
+ "INSAIT": {
+  "url": "https://insait.ai",
+  "logo": "assets/institutions/insait.png",
+  "logo_source": "https://insait.ai/wp-content/uploads/2025/10/cropped-apple-touch-icon-192x192.png"
+ },
+ "Imperial College London": {
+  "url": "https://www.imperial.ac.uk",
+  "logo": "assets/institutions/imperial-college-london.png",
+  "logo_source": "https://www.imperial.ac.uk/assets/website/images/favicon/favicon.svg"
+ },
+ "Indian Institute of Science": {
+  "url": "https://iisc.ac.in",
+  "logo": "assets/institutions/indian-institute-of-science.png",
+  "logo_source": "https://www.iisc.ac.in/wp-content/themes/iisc/images/favicon/android-icon-192x192.png"
+ },
+ "Italian Institute of Technology": {
+  "url": "https://www.iit.it",
+  "logo": "assets/institutions/italian-institute-of-technology.png",
+  "logo_source": "https://www.iit.it/o/iit-theme/images/favicon.ico"
+ },
+ "Johns Hopkins University": {
+  "url": "https://www.jhu.edu",
+  "logo": "assets/institutions/johns-hopkins-university.png",
+  "logo_source": "https://www.google.com/s2/favicons?domain=www.jhu.edu&sz=128"
+ },
+ "KAIST": {
+  "url": "https://www.kaist.ac.kr",
+  "logo": "assets/institutions/kaist.png",
+  "logo_source": "https://www.google.com/s2/favicons?domain=www.kaist.ac.kr&sz=128"
+ },
+ "LIRIS, Université de Lyon": {
+  "url": "https://liris.cnrs.fr",
+  "logo": "assets/institutions/liris-universit-de-lyon.png",
+  "logo_source": "https://liris.cnrs.fr/sites/default/files/favicon.ico"
+ },
+ "MBZUAI": {
+  "url": "https://mbzuai.ac.ae",
+  "logo": "assets/institutions/mbzuai.png",
+  "logo_source": "https://www.google.com/s2/favicons?domain=mbzuai.ac.ae&sz=128"
+ },
+ "MERL": {
+  "url": "https://www.merl.com",
+  "logo": "assets/institutions/merl.png",
+  "logo_source": "https://www.merl.com/safari-pinned-tab.svg"
+ },
+ "MIT": {
+  "url": "https://www.mit.edu",
+  "logo": "assets/institutions/mit.png",
+  "logo_source": "https://www.mit.edu/themes/mit/assets/favicon/favicon.svg"
+ },
+ "MIT-IBM Watson AI Lab": {
+  "url": "https://mitibmwatsonailab.mit.edu",
+  "logo": "assets/institutions/mit-ibm-watson-ai-lab.png",
+  "logo_source": "https://mitibm.mit.edu/wp-content/themes/ibm-mit/assets/favicon/apple-touch-icon-152x152.png"
+ },
+ "Max Planck Institute for Intelligent Systems": {
+  "url": "https://is.mpg.de",
+  "logo": "assets/institutions/max-planck-institute-for-intelligent-systems.png",
+  "logo_source": "https://www.google.com/s2/favicons?domain=is.mpg.de&sz=128"
+ },
+ "Meta": {
+  "url": "https://about.meta.com",
+  "logo": "assets/institutions/meta.png",
+  "logo_source": "https://static.xx.fbcdn.net/rsrc.php/yf/r/-7pQO6hUGK_.svg"
+ },
+ "MirroS Lab": {
+  "url": "https://mirros.ai",
+  "logo": "assets/institutions/mirros-lab.png",
+  "logo_source": "https://github.com/mirros-lab.png"
+ },
+ "Monash University": {
+  "url": "https://www.monash.edu",
+  "logo": "assets/institutions/monash-university.png",
+  "logo_source": "https://www.google.com/s2/favicons?domain=www.monash.edu&sz=128"
+ },
+ "Montreal Robotics and Embodied AI Lab": {
+  "url": "https://montrealrobotics.ca",
+  "logo": "assets/institutions/montreal-robotics-and-embodied-ai-lab.png",
+  "logo_source": "https://montrealrobotics.ca/website-assets/assets/img/favicon.png"
+ },
+ "NVIDIA": {
+  "url": "https://www.nvidia.com",
+  "logo": "assets/institutions/nvidia.png",
+  "logo_source": "https://www.google.com/s2/favicons?domain=www.nvidia.com&sz=128"
+ },
+ "Nanjing University": {
+  "url": "https://www.nju.edu.cn",
+  "logo": "assets/institutions/nanjing-university.png",
+  "logo_source": "https://en.wikipedia.org/wiki/File:Nanjing_University_Logo.svg"
+ },
+ "Nankai University": {
+  "url": "https://www.nankai.edu.cn",
+  "logo": "assets/institutions/nankai-university.png",
+  "logo_source": "https://en.wikipedia.org/wiki/File:Nankai_University_logo.svg"
+ },
+ "Nanyang Technological University": {
+  "url": "https://www.ntu.edu.sg",
+  "logo": "assets/institutions/nanyang-technological-university.png",
+  "logo_source": "https://www.ntu.edu.sg/ResourcePackages/NTU/assets/images/favicon.png"
+ },
+ "National University of Defense Technology": {
+  "url": "https://www.nudt.edu.cn",
+  "logo": "assets/institutions/national-university-of-defense-technology.png",
+  "logo_source": "https://en.wikipedia.org/wiki/File:Logo_of_the_National_University_of_Defense_Technology.svg"
+ },
+ "Northeastern University": {
+  "url": "https://www.northeastern.edu",
+  "logo": "assets/institutions/northeastern-university.png",
+  "logo_source": "https://brand.northeastern.edu/global/assets/favicon/apple-touch-152x152.png?v=2"
+ },
+ "Peking University": {
+  "url": "https://www.pku.edu.cn",
+  "logo": "assets/institutions/peking-university.png",
+  "logo_source": "https://en.wikipedia.org/wiki/File:Peking_University_seal.svg"
+ },
+ "Princeton University": {
+  "url": "https://www.princeton.edu",
+  "logo": "assets/institutions/princeton-university.png",
+  "logo_source": "https://www.google.com/s2/favicons?domain=www.princeton.edu&sz=128"
+ },
+ "Queensland University of Technology": {
+  "url": "https://www.qut.edu.au",
+  "logo": "assets/institutions/queensland-university-of-technology.png",
+  "logo_source": "https://www.google.com/s2/favicons?domain=www.qut.edu.au&sz=128"
+ },
+ "RAI Institute": {
+  "url": "https://rai-inst.com",
+  "logo": "assets/institutions/rai-institute.png",
+  "logo_source": "https://rai-inst.com/wp-content/uploads/2024/12/cropped-RAI-FavIcon-192x192.png"
+ },
+ "SIAT, Chinese Academy of Sciences": {
+  "url": "https://www.siat.ac.cn",
+  "logo": "assets/institutions/siat-chinese-academy-of-sciences.png",
+  "logo_source": "https://www.siat.ac.cn/images/szxjy-logoicon.png"
+ },
+ "Shanghai AI Laboratory": {
+  "url": "https://www.shlab.org.cn",
+  "logo": "assets/institutions/shanghai-ai-laboratory.png",
+  "logo_source": "https://www.shlab.org.cn/static/asset/2025/imgs/logo.webp"
+ },
+ "Shanghai Jiao Tong University": {
+  "url": "https://www.sjtu.edu.cn",
+  "logo": "assets/institutions/shanghai-jiao-tong-university.png",
+  "logo_source": "https://en.wikipedia.org/wiki/File:Sjtu-logo-standard-red.png"
+ },
+ "Sharpa": {
+  "url": "https://www.sharpa.com",
+  "logo": "assets/institutions/sharpa.png",
+  "logo_source": "https://www.sharpa.com/cdn/shop/files/edead23ab537221471d770861f99ec5f.svg"
+ },
+ "Simon Fraser University": {
+  "url": "https://www.sfu.ca",
+  "logo": "assets/institutions/simon-fraser-university.png",
+  "logo_source": "https://www.sfu.ca/apple-touch-icon.png"
+ },
+ "Stanford University": {
+  "url": "https://www.stanford.edu",
+  "logo": "assets/institutions/stanford-university.png",
+  "logo_source": "https://www.stanford.edu/icon1.png?icon1.2k3tekyi17a_q.png?dpl=8616aa88302e02a264fb95b5f9fd8e7cd27aa45797f70e20502ac3baa58dd669366166653461623433366137343735353637323366653131"
+ },
+ "Sun Yat-sen University": {
+  "url": "https://www.sysu.edu.cn",
+  "logo": "assets/institutions/sun-yat-sen-university.png",
+  "logo_source": "https://en.wikipedia.org/wiki/File:Sun_Yat-sen_University_Logo.png"
+ },
+ "TU Berlin": {
+  "url": "https://www.tu.berlin",
+  "logo": "assets/institutions/tu-berlin.png",
+  "logo_source": "https://www.static.tu.berlin/Manifest/safari-pinned-tab.svg"
+ },
+ "Technical University of Munich": {
+  "url": "https://www.tum.de",
+  "logo": "assets/institutions/technical-university-of-munich.png",
+  "logo_source": "https://www.tum.de/safari-pinned-tab.svg"
+ },
+ "Tencent": {
+  "url": "https://www.tencent.com",
+  "logo": "assets/institutions/tencent.png",
+  "logo_source": "https://en.wikipedia.org/wiki/File:Tencent_logo_2017.svg"
+ },
+ "The Hong Kong Polytechnic University": {
+  "url": "https://www.polyu.edu.hk",
+  "logo": "assets/institutions/the-hong-kong-polytechnic-university.png",
+  "logo_source": "https://www.polyu.edu.hk/-/media/department/home/setting/favicon.ico?rev=3645ae56c1674f7ba7ff351ec16123df&hash=362CCC9C57A3CEBB5D28EEA507E98503"
+ },
+ "The University of Hong Kong": {
+  "url": "https://www.hku.hk",
+  "logo": "assets/institutions/the-university-of-hong-kong.png",
+  "logo_source": "https://www.hku.hk/etc.clientlibs/hkucms/clientlibs/clientlib-site/resources/icon-192x192.png"
+ },
+ "Toyota Research Institute": {
+  "url": "https://www.tri.global",
+  "logo": "assets/institutions/toyota-research-institute.png",
+  "logo_source": "https://en.wikipedia.org/wiki/File:Toyota_Research_Institute_Logo_Square.png"
+ },
+ "Tsinghua University": {
+  "url": "https://www.tsinghua.edu.cn",
+  "logo": "assets/institutions/tsinghua-university.png",
+  "logo_source": "https://en.wikipedia.org/wiki/File:Tsinghua_University_Logo.svg"
+ },
+ "Tuojing Intelligence": {
+  "url": "https://github.com/TuojingAI",
+  "logo": "assets/institutions/tuojing-intelligence.png",
+  "logo_source": "https://arxiv.org/pdf/2608.27365#page=1"
+ },
+ "UC Berkeley": {
+  "url": "https://www.berkeley.edu",
+  "logo": "assets/institutions/uc-berkeley.png",
+  "logo_source": "https://www.berkeley.edu/favicon.svg?v=2"
+ },
+ "UC San Diego": {
+  "url": "https://ucsd.edu",
+  "logo": "assets/institutions/uc-san-diego.png",
+  "logo_source": "https://ucsd.edu/favicon.ico"
+ },
+ "UC Santa Cruz": {
+  "url": "https://www.ucsc.edu",
+  "logo": "assets/institutions/uc-santa-cruz.png",
+  "logo_source": "https://www.google.com/s2/favicons?domain=www.ucsc.edu&sz=128"
+ },
+ "UCLA": {
+  "url": "https://www.ucla.edu",
+  "logo": "assets/institutions/ucla.png",
+  "logo_source": "https://www.ucla.edu/img/apple-touch-icon.png"
+ },
+ "UIUC": {
+  "url": "https://illinois.edu",
+  "logo": "assets/institutions/uiuc.png",
+  "logo_source": "https://t1.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&size=256&url=https%3A%2F%2Fillinois.edu"
+ },
+ "UMass Amherst": {
+  "url": "https://www.umass.edu",
+  "logo": "assets/institutions/umass-amherst.png",
+  "logo_source": "https://www.umass.edu/favicons/safari-pinned-tab.svg"
+ },
+ "UNC Chapel Hill": {
+  "url": "https://www.unc.edu",
+  "logo": "assets/institutions/unc-chapel-hill.png",
+  "logo_source": "https://www.unc.edu/wp-content/themes/unc/assets/images/favicon/safari-pinned-tab.svg?v=jwLzlQrBRl"
+ },
+ "USTC": {
+  "url": "https://www.ustc.edu.cn",
+  "logo": "assets/institutions/ustc.png",
+  "logo_source": "https://en.wikipedia.org/wiki/File:Logo_of_University_of_Science_and_Technology_of_China.svg"
+ },
+ "UT Austin": {
+  "url": "https://www.utexas.edu",
+  "logo": "assets/institutions/ut-austin.png",
+  "logo_source": "https://www.utexas.edu/android-chrome-512x512.png"
+ },
+ "Uber ATG": {
+  "url": "https://www.uber.com",
+  "logo": "assets/institutions/uber-atg.png",
+  "logo_source": "https://www.google.com/s2/favicons?domain=www.uber.com&sz=128"
+ },
+ "University of Amsterdam": {
+  "url": "https://www.uva.nl",
+  "logo": "assets/institutions/university-of-amsterdam.png",
+  "logo_source": "https://t1.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&size=256&url=https%3A%2F%2Fwww.uva.nl"
+ },
+ "University of Bonn": {
+  "url": "https://www.uni-bonn.de",
+  "logo": "assets/institutions/university-of-bonn.png",
+  "logo_source": "https://www.google.com/s2/favicons?domain=www.uni-bonn.de&sz=128"
+ },
+ "University of British Columbia": {
+  "url": "https://www.ubc.ca",
+  "logo": "assets/institutions/university-of-british-columbia.png",
+  "logo_source": "https://cdn.ubc.ca/clf/7.0.5/img/touch-icon-iphone.png"
+ },
+ "University of Edinburgh": {
+  "url": "https://www.ed.ac.uk",
+  "logo": "assets/institutions/university-of-edinburgh.png",
+  "logo_source": "https://en.wikipedia.org/wiki/File:University_of_Edinburgh_ceremonial_roundel.svg"
+ },
+ "University of Freiburg": {
+  "url": "https://uni-freiburg.de",
+  "logo": "assets/institutions/university-of-freiburg.png",
+  "logo_source": "https://uni-freiburg.de/wp-content/themes/ufr-main-theme/assets/img/favicon/favicon-512x512.png"
+ },
+ "University of Maryland": {
+  "url": "https://umd.edu",
+  "logo": "assets/institutions/university-of-maryland.png",
+  "logo_source": "https://umd.edu/default/static/icons/apple-touch-icon.png"
+ },
+ "University of Michigan": {
+  "url": "https://umich.edu",
+  "logo": "assets/institutions/university-of-michigan.png",
+  "logo_source": "https://www.google.com/s2/favicons?domain=umich.edu&sz=128"
+ },
+ "University of Nevada, Reno": {
+  "url": "https://www.unr.edu",
+  "logo": "assets/institutions/university-of-nevada-reno.png",
+  "logo_source": "https://www.unr.edu/Assets/Icons/other/safari-pinned-tab.svg"
+ },
+ "University of Padua": {
+  "url": "https://www.unipd.it",
+  "logo": "assets/institutions/university-of-padua.png",
+  "logo_source": "https://www.unipd.it/favicon.ico?favicon.fe08e1ad.ico"
+ },
+ "University of Pennsylvania": {
+  "url": "https://www.upenn.edu",
+  "logo": "assets/institutions/university-of-pennsylvania.png",
+  "logo_source": "https://www.upenn.edu/themes/custom/penn_global/assets/img/simplified-shield.ico"
+ },
+ "University of Southern California": {
+  "url": "https://www.usc.edu",
+  "logo": "assets/institutions/university-of-southern-california.png",
+  "logo_source": "https://www.usc.edu/wp-content/themes/usc-communications-2023/favicon/safari-pinned-tab.svg"
+ },
+ "University of Turku": {
+  "url": "https://www.utu.fi",
+  "logo": "assets/institutions/university-of-turku.png",
+  "logo_source": "https://www.utu.fi/themes/custom/utu/safari-pinned-tab.svg"
+ },
+ "University of Utah": {
+  "url": "https://www.utah.edu",
+  "logo": "assets/institutions/university-of-utah.png",
+  "logo_source": "https://templates.utah.edu/_main-v3-1/images/template/apple-touch-icon.png"
+ },
+ "University of Warsaw": {
+  "url": "https://www.uw.edu.pl",
+  "logo": "assets/institutions/university-of-warsaw.png",
+  "logo_source": "https://en.wikipedia.org/wiki/File:POL_University_of_Warsaw_logo.svg"
+ },
+ "University of Washington": {
+  "url": "https://www.washington.edu",
+  "logo": "assets/institutions/university-of-washington.png",
+  "logo_source": "https://uw.edu/static/hometemp/wp-content/themes/uw_wp_theme/favicon.ico"
+ },
+ "University of Waterloo": {
+  "url": "https://uwaterloo.ca",
+  "logo": "assets/institutions/university-of-waterloo.png",
+  "logo_source": "https://uwaterloo.ca/profiles/uw_base_profile/themes/uw_fdsu_theme_resp/apple-touch-icon.png"
+ },
+ "University of Western Australia": {
+  "url": "https://www.uwa.edu.au",
+  "logo": "assets/institutions/university-of-western-australia.png",
+  "logo_source": "https://www.uwa.edu.au/_assets/favicon512.png"
+ },
+ "University of Wisconsin–Madison": {
+  "url": "https://www.wisc.edu",
+  "logo": "assets/institutions/university-of-wisconsin-madison.png",
+  "logo_source": "https://www.google.com/s2/favicons?domain=www.wisc.edu&sz=128"
+ },
+ "University of Zurich": {
+  "url": "https://www.uzh.ch",
+  "logo": "assets/institutions/university-of-zurich.png",
+  "logo_source": "https://www.uzh.ch/docroot/favicons/apple-touch-icon.png"
+ },
+ "Waabi": {
+  "url": "https://waabi.ai",
+  "logo": "assets/institutions/waabi.png",
+  "logo_source": "https://waabi.ai/favicon.ico?favicon.0x3dzn~oxb6tn.ico"
+ },
+ "Wuhan University": {
+  "url": "https://www.whu.edu.cn",
+  "logo": "assets/institutions/wuhan-university.png",
+  "logo_source": "https://www.whu.edu.cn/new2024/images/favicon.png"
+ },
+ "X Square Robot": {
+  "url": "https://x2robot.com",
+  "logo": "assets/institutions/x-square-robot.png",
+  "logo_source": "https://x2robot.com/api/images/file/logo.svg"
+ },
+ "Xiamen University": {
+  "url": "https://www.xmu.edu.cn",
+  "logo": "assets/institutions/xiamen-university.png",
+  "logo_source": "https://en.wikipedia.org/wiki/File:Xiamen_University_logo.svg"
+ },
+ "Xidian University": {
+  "url": "https://www.xidian.edu.cn",
+  "logo": "assets/institutions/xidian-university.png",
+  "logo_source": "https://t1.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&size=256&url=https%3A%2F%2Fwww.xidian.edu.cn"
+ },
+ "Yale University": {
+  "url": "https://www.yale.edu",
+  "logo": "assets/institutions/yale-university.png",
+  "logo_source": "https://www.yale.edu/sites/all/themes/yale_blue/images/favicons/android-chrome-192x192.png"
+ },
+ "Zenseact": {
+  "url": "https://www.zenseact.com",
+  "logo": "assets/institutions/zenseact.png",
+  "logo_source": "https://zenseact.com/wp-content/uploads/dynamic-resized/zenseact-favicon-192x192.png"
+ },
+ "Zhejiang University": {
+  "url": "https://www.zju.edu.cn",
+  "logo": "assets/institutions/zhejiang-university.png",
+  "logo_source": "https://en.wikipedia.org/wiki/File:Zhejiang_University_Logo.svg"
+ }
+}

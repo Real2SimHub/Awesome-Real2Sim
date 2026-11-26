@@ -1,0 +1,333 @@
+{
+  "updated": "2026-11-22",
+  "groups": [
+    {
+      "key": "method",
+      "title": "Methods",
+      "emoji": "🧪",
+      "subtitle": "Build a runnable simulation from real observations",
+      "kinds": [
+        "method"
+      ]
+    },
+    {
+      "key": "benchmark",
+      "title": "Benchmarks",
+      "emoji": "📊",
+      "subtitle": "Measure how well it is built, by what the system must deliver",
+      "kinds": [
+        "benchmark"
+      ]
+    },
+    {
+      "key": "dataset",
+      "title": "Datasets",
+      "emoji": "📦",
+      "subtitle": "Data real-to-sim work learns from or is checked against",
+      "kinds": [
+        "dataset"
+      ]
+    },
+    {
+      "key": "survey",
+      "title": "Surveys",
+      "emoji": "📚",
+      "subtitle": "Reviews of the field and its neighbours",
+      "kinds": [
+        "survey"
+      ]
+    },
+    {
+      "key": "adjacent",
+      "title": "Adjacent directions",
+      "emoji": "🔭",
+      "subtitle": "Simulations built without real observations: the technical roots of the field",
+      "kinds": [
+        "method"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "key": "m1a-identified",
+      "group": "method",
+      "family": "Physical twins",
+      "title": "Physical Twins · Identified Parameters",
+      "short": "Physical twin · identified",
+      "glyph": "target",
+      "delivers": "a 3D representation coupled to a known physics model, with parameters fitted to the object's own observed motion",
+      "description": "Reconstruct an object or scene, couple it to a known physics model (MPM, spring–mass, rigid body, FEM, rods) and fit the physical parameters until simulated motion matches the observed motion. The result simulates *this* object under new forces.",
+      "tagline": "parameters fitted to its own motion"
+    },
+    {
+      "key": "m1b-assigned",
+      "group": "method",
+      "family": "Physical twins",
+      "title": "Physical Twins · Assigned Parameters",
+      "short": "Physical twin · assigned",
+      "glyph": "sparkle",
+      "delivers": "the same kind of physical twin, with parameters taken from a generative prior, a language model or a person rather than fitted to observed motion",
+      "description": "Couple a physics model to a reconstructed or generated 3D scene, but take the parameters from somewhere other than the object's own motion: a video-generation prior, a vision-language model, or a hand-set value. Mostly used for interactive 3D/4D content.",
+      "tagline": "parameters from priors or by hand"
+    },
+    {
+      "key": "m2-asset",
+      "group": "method",
+      "family": "Assets",
+      "title": "Simulation-Ready Assets",
+      "short": "Sim-ready asset",
+      "glyph": "hinge",
+      "delivers": "a single object in a standard simulator format (URDF, MJCF, USD, SDF) with joints, limits, collision shapes and inertia",
+      "description": "Turn scans, images or interaction videos of a real object into an asset any physics engine can load: parts, joints, limits, collision geometry and inertia, most often for articulated objects.",
+      "tagline": "one object in URDF / MJCF / USD"
+    },
+    {
+      "key": "m3-scene",
+      "group": "method",
+      "family": "Scenes",
+      "title": "Scene-Level Simulations & Digital Twins",
+      "short": "Scene twin",
+      "glyph": "scene",
+      "delivers": "a whole environment (objects, layout, often a robot and a renderer) that runs inside a simulator",
+      "description": "Rebuild an entire real environment — a tabletop, a room, a street — inside a simulator, often with Gaussian splatting for realistic sensors, so that robots or vehicles can be trained and evaluated in it.",
+      "subcategories": [
+        "Manipulation",
+        "Navigation & locomotion",
+        "Autonomous driving"
+      ],
+      "tagline": "a whole environment in a simulator"
+    },
+    {
+      "key": "m4-program",
+      "group": "method",
+      "family": "Programs",
+      "title": "Executable Simulation Programs",
+      "short": "Simulation program",
+      "glyph": "braces",
+      "delivers": "a program whose own structure was synthesised and which, when run, produces the simulation",
+      "description": "Deliver the simulation as code — Python with a physics engine, a Blender script, a scene program — whose structure is itself synthesised from the observations, usually by a language model or a coding agent that runs and revises it.",
+      "tagline": "code that, when run, is the simulation"
+    },
+    {
+      "key": "m5-learned",
+      "group": "method",
+      "family": "Learned simulators",
+      "title": "Learned Simulators",
+      "short": "Learned simulator",
+      "glyph": "network",
+      "delivers": "a trained network whose weights hold the dynamics",
+      "description": "Learn the simulator itself from real data: particle and graph dynamics models over 3D state, or action-conditioned video world models that predict future observations.",
+      "subcategories": [
+        "Neural dynamics",
+        "Video world models"
+      ],
+      "tagline": "a network that holds the dynamics"
+    },
+    {
+      "key": "b1-executable",
+      "group": "benchmark",
+      "title": "Deliver a Runnable Simulation",
+      "short": "Runnable simulation",
+      "glyph": "terminal",
+      "delivers": "a simulation that is executed or compared: a program, a scene file, a 4D world, or equations with parameters",
+      "description": "The system watches the observations and must hand in something that runs — a program, a scene, a 4D world, or governing equations with parameters — which the benchmark executes or compares with ground truth.",
+      "tagline": "hand in a program, scene or 4D world"
+    },
+    {
+      "key": "b2-reasoning",
+      "group": "benchmark",
+      "title": "Predict or Answer",
+      "short": "Prediction & reasoning",
+      "glyph": "question",
+      "delivers": "answers, labels or outcome predictions, with no generated frames",
+      "description": "Predict what happens next, or what would happen under a change, from videos of physical scenes; the answer is an outcome, a label or a question answer.",
+      "tagline": "answer or predict the outcome"
+    },
+    {
+      "key": "b3-generated",
+      "group": "benchmark",
+      "title": "Generate the Future",
+      "short": "Generated video",
+      "glyph": "film",
+      "delivers": "generated video frames, from video generators or world models",
+      "description": "Generate the continuation (or the whole clip) and be scored on whether it is physically right: against real held-out footage, physical laws, or human and VLM judges.",
+      "tagline": "generate the physically right future"
+    },
+    {
+      "key": "b4-sim-real",
+      "group": "benchmark",
+      "title": "Does the Simulator Match Reality?",
+      "short": "Sim–real agreement",
+      "glyph": "scale",
+      "delivers": "nothing from a model: the simulator or simulated environment itself is what is tested",
+      "description": "The object under test is the simulator or simulated environment: do policy success rates, rankings or physical motions in simulation agree with the real world?",
+      "subcategories": [
+        "Policy evaluation",
+        "Simulator fidelity"
+      ],
+      "tagline": "the simulator itself is under test"
+    },
+    {
+      "key": "d-dataset",
+      "group": "dataset",
+      "title": "Datasets",
+      "short": "Datasets",
+      "glyph": "database",
+      "delivers": "data without an evaluation protocol",
+      "description": "Recordings, objects and assets that real-to-sim methods learn from or are checked against, without a protocol that scores real-to-sim ability.",
+      "subcategories": [
+        "Physical properties",
+        "Simulation-ready assets",
+        "Real–sim paired"
+      ],
+      "tagline": "data without an evaluation protocol"
+    },
+    {
+      "key": "s-survey",
+      "group": "survey",
+      "title": "Surveys",
+      "short": "Surveys",
+      "glyph": "book",
+      "delivers": "a review of a field",
+      "description": "Surveys and reviews of real-to-sim and of the fields it draws on.",
+      "tagline": "reviews of the field and nearby ones"
+    },
+    {
+      "key": "x-text-to-sim",
+      "group": "adjacent",
+      "title": "Simulations Generated from Text",
+      "short": "Text → simulation",
+      "glyph": "text",
+      "delivers": "tasks, scenes, rewards or simulation code written from a text description",
+      "description": "Language models write simulation tasks, scenes, rewards or physics code from a text prompt, without looking at the real world.",
+      "tagline": "simulations written from a text prompt"
+    },
+    {
+      "key": "x-code-world-model",
+      "group": "adjacent",
+      "title": "Code World Models",
+      "short": "Code world models",
+      "glyph": "braces",
+      "delivers": "a program that models a game or simulated environment",
+      "description": "Programs induced from the state traces of games or simulators to serve as world models for planning.",
+      "tagline": "programs induced from game or sim traces"
+    },
+    {
+      "key": "x-foundation",
+      "group": "adjacent",
+      "title": "Learned Simulators without Real Data",
+      "short": "Learned sims, no real data",
+      "glyph": "network",
+      "delivers": "a learned simulator trained on simulated data, or a world generated rather than reproduced",
+      "description": "Foundational learned simulators trained only on simulator data, and generative world models that invent worlds instead of reproducing a real one.",
+      "tagline": "learned from simulated data only"
+    }
+  ],
+  "builders": [
+    {
+      "key": "Optimization",
+      "label": "Optimization",
+      "description": "parameters or structure fitted by differentiable simulation, rendering or search"
+    },
+    {
+      "key": "Reconstruction pipeline",
+      "label": "Reconstruction pipeline",
+      "description": "multi-stage reconstruction, alignment and assembly, sometimes with a person in the loop"
+    },
+    {
+      "key": "Feed-forward network",
+      "label": "Feed-forward network",
+      "description": "a trained network predicts the result in one pass"
+    },
+    {
+      "key": "Generative prior",
+      "label": "Generative prior",
+      "description": "a video or 3D generative model supplies motion or parameters"
+    },
+    {
+      "key": "LLM / agent",
+      "label": "LLM / agent",
+      "description": "a language model or coding agent writes or chooses the result"
+    },
+    {
+      "key": "Learned from data",
+      "label": "Learned from data",
+      "description": "the simulator is a network trained on recorded dynamics"
+    }
+  ],
+  "eval_types": [
+    {
+      "key": "appearance",
+      "label": "appearance"
+    },
+    {
+      "key": "geometry",
+      "label": "geometry"
+    },
+    {
+      "key": "trajectory",
+      "label": "trajectory"
+    },
+    {
+      "key": "physical-parameter recovery",
+      "label": "parameter recovery"
+    },
+    {
+      "key": "future prediction",
+      "label": "future prediction"
+    },
+    {
+      "key": "counterfactual / intervention",
+      "label": "counterfactual"
+    },
+    {
+      "key": "question answering",
+      "label": "QA"
+    },
+    {
+      "key": "downstream policy",
+      "label": "policy transfer"
+    },
+    {
+      "key": "human / VLM judge",
+      "label": "human / VLM judge"
+    },
+    {
+      "key": "code executability",
+      "label": "executability"
+    }
+  ],
+  "questions": [
+    {
+      "ask": "Does the input include real observations?",
+      "exit": "no",
+      "to": "adjacent"
+    },
+    {
+      "ask": "Do the dynamics live in network weights?",
+      "exit": "yes",
+      "to": "m5-learned"
+    },
+    {
+      "ask": "Is the deliverable an executable program?",
+      "exit": "yes",
+      "to": "m4-program"
+    },
+    {
+      "ask": "Is it a whole scene or environment?",
+      "exit": "yes",
+      "to": "m3-scene"
+    },
+    {
+      "ask": "Is it a single object in URDF / MJCF / USD?",
+      "exit": "yes",
+      "to": "m2-asset"
+    },
+    {
+      "ask": "Physical twin: parameters fitted to its own motion?",
+      "exit": "yes",
+      "to": "m1a-identified",
+      "otherwise": "m1b-assigned"
+    }
+  ]
+}

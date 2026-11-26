@@ -1,0 +1,101 @@
+{
+  "note": "Hand-picked key works: the cards of assets/figures/roadmap.svg and the table under it (the build fails if the two name different works). Each id must exist in works.json; keyword is a few words on why the work matters.",
+  "milestones": [
+    {
+      "id": "galileo",
+      "keyword": "infers mass and friction from video"
+    },
+    {
+      "id": "intphys",
+      "keyword": "intuitive-physics benchmark"
+    },
+    {
+      "id": "clevrer",
+      "keyword": "causal reasoning on collisions"
+    },
+    {
+      "id": "lidarsim",
+      "keyword": "sensor sim from real scans"
+    },
+    {
+      "id": "gradsim",
+      "keyword": "differentiable sim from video"
+    },
+    {
+      "id": "robocraft",
+      "keyword": "learned particle dynamics"
+    },
+    {
+      "id": "pac-nerf",
+      "keyword": "NeRF + MPM system identification"
+    },
+    {
+      "id": "unisim",
+      "keyword": "learned interactive simulator"
+    },
+    {
+      "id": "physgaussian",
+      "keyword": "3D Gaussians + MPM"
+    },
+    {
+      "id": "urdformer",
+      "keyword": "images to articulated URDF"
+    },
+    {
+      "id": "rialto",
+      "keyword": "real-to-sim-to-real for robots"
+    },
+    {
+      "id": "simpler",
+      "keyword": "does sim match the real robot?"
+    },
+    {
+      "id": "phystwin",
+      "keyword": "twins of deformable objects"
+    },
+    {
+      "id": "human2sim2robot",
+      "keyword": "robot skills from one human video"
+    },
+    {
+      "id": "real2sim-eval",
+      "keyword": "policy evaluation in soft-body twins"
+    },
+    {
+      "id": "cosmos",
+      "keyword": "world foundation models"
+    },
+    {
+      "id": "physics-iq",
+      "keyword": "do video models get physics?"
+    },
+    {
+      "id": "urdf-anything-plus",
+      "keyword": "one image to an articulated URDF"
+    },
+    {
+      "id": "lagrangiansplats",
+      "keyword": "divergence-free fluids from video"
+    },
+    {
+      "id": "agentic-real2sim",
+      "keyword": "VLM agents build physics twins"
+    },
+    {
+      "id": "real2gym",
+      "keyword": "videos to simulation gyms"
+    },
+    {
+      "id": "4dcodebench",
+      "keyword": "coding agents write 4D worlds"
+    },
+    {
+      "id": "video2world",
+      "keyword": "agents simulate robot videos"
+    },
+    {
+      "id": "physcodegym",
+      "keyword": "coding agents rebuild scenes in Blender"
+    }
+  ]
+}
