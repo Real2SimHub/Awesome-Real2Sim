@@ -23,7 +23,7 @@
 </p>
 
 [![arXiv](https://img.shields.io/badge/arXiv-2611.34849-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2611.34849)
-![methods](https://img.shields.io/badge/methods-162-4f46e5?logo=bookstack&logoColor=white)
+![methods](https://img.shields.io/badge/methods-163-4f46e5?logo=bookstack&logoColor=white)
 ![benchmarks](https://img.shields.io/badge/benchmarks-54-ea580c?logo=speedtest&logoColor=white)
 ![datasets](https://img.shields.io/badge/datasets-25-0891b2?logo=databricks&logoColor=white)
 ![surveys](https://img.shields.io/badge/surveys-25-475569?logo=readthedocs&logoColor=white)
@@ -49,7 +49,7 @@
 **Real2Sim** turns observations of the real world — videos, images, scans, interaction — into
 something that can be **run**: a physical twin with fitted parameters, a simulation-ready asset,
 a whole simulated scene, a simulation program, or a learned simulator. This list collects
-289 works and sorts every one of them by **what it delivers**, so that each work has
+290 works and sorts every one of them by **what it delivers**, so that each work has
 exactly one place, and tags it with **how it is built**, the physics it covers and how it is evaluated.
 
 ## 🛣️ Roadmap
@@ -120,7 +120,7 @@ your work, please cite it:
   - [Physical Twins · Assigned Parameters](#physical-twins--assigned-parameters) <sub>23</sub>
   - [Simulation-Ready Assets](#simulation-ready-assets) <sub>21</sub>
   - [Scene-Level Simulations & Digital Twins](#scene-level-simulations--digital-twins) <sub>46</sub>
-  - [Executable Simulation Programs](#executable-simulation-programs) <sub>14</sub>
+  - [Executable Simulation Programs](#executable-simulation-programs) <sub>15</sub>
   - [Learned Simulators](#learned-simulators) <sub>15</sub>
 - [📊 Benchmarks](#-benchmarks)
   - [Deliver a Runnable Simulation](#deliver-a-runnable-simulation) <sub>15</sub>
@@ -156,7 +156,7 @@ is a tag, not a category.
 | [Physical Twins · Assigned Parameters](#physical-twins--assigned-parameters) | the same kind of physical twin, with parameters taken from a generative prior, a language model or a person rather than fitted to observed motion | 23 |
 | [Simulation-Ready Assets](#simulation-ready-assets) | a single object in a standard simulator format (URDF, MJCF, USD, SDF) with joints, limits, collision shapes and inertia | 21 |
 | [Scene-Level Simulations & Digital Twins](#scene-level-simulations--digital-twins) | a whole environment (objects, layout, often a robot and a renderer) that runs inside a simulator | 46 |
-| [Executable Simulation Programs](#executable-simulation-programs) | a program whose own structure was synthesised and which, when run, produces the simulation | 14 |
+| [Executable Simulation Programs](#executable-simulation-programs) | a program whose own structure was synthesised and which, when run, produces the simulation | 15 |
 | [Learned Simulators](#learned-simulators) | a trained network whose weights hold the dynamics | 15 |
 | [Deliver a Runnable Simulation](#deliver-a-runnable-simulation) | a simulation that is executed or compared: a program, a scene file, a 4D world, or equations with parameters | 15 |
 | [Predict or Answer](#predict-or-answer) | answers, labels or outcome predictions, with no generated frames | 13 |
@@ -200,10 +200,10 @@ The physics engines and solvers the works in this list build on, with how many w
 |---|:-:|---|
 | [**Material Point Method (MPM)**](https://github.com/taichi-dev/taichi) | 27 | continuum solids, fluids and granular matter; often written in Taichi or Warp |
 | [**MuJoCo**](https://github.com/google-deepmind/mujoco) | 12 | rigid and articulated bodies, robots |
-| [**NVIDIA Isaac Sim / Isaac Lab**](https://github.com/isaac-sim/IsaacLab) | 11 | GPU robot simulation with photoreal rendering |
+| [**NVIDIA Isaac Sim / Isaac Lab**](https://github.com/isaac-sim/IsaacLab) | 12 | GPU robot simulation with photoreal rendering |
 | [**PyBullet**](https://github.com/bulletphysics/bullet3) | 7 | rigid and articulated bodies |
 | [**Blender**](https://www.blender.org) | 6 | scenes, rendering and its physics engines |
-| [**SAPIEN / ManiSkill**](https://github.com/haosulab/ManiSkill) | 3 | articulated objects and manipulation |
+| [**SAPIEN / ManiSkill**](https://github.com/haosulab/ManiSkill) | 4 | articulated objects and manipulation |
 | [**NVIDIA Warp**](https://github.com/NVIDIA/warp) | 1 | differentiable GPU simulation in Python |
 | [**Drake**](https://github.com/RobotLocomotion/drake) | 1 | model-based robotics, contact |
 
@@ -582,6 +582,7 @@ The physics engines and solvers the works in this list build on, with how many w
 <tr><td><a href="https://arxiv.org/abs/2606.10478"><b>3D-CoS</b></a><br><sub>arXiv 2026 · Shanghai Jiao Tong University</sub></td><td>single image → executable Blender Python code reconstructing the object</td><td align="center"><a href="https://arxiv.org/abs/2606.10478"><img src="https://img.shields.io/badge/-paper-b31b1b?logo=arxiv&logoColor=white" height="30" alt="paper"></a></td></tr>
 <tr><td><a href="https://agentic-real2sim.github.io"><b>Agentic Real2Sim</b></a><br><sub>arXiv 2026 · University of British Columbia</sub></td><td>monocular video → MuJoCo episode twin (scene, objects, poses, robot motion, physical properties)</td><td align="center"><a href="https://arxiv.org/abs/2607.19190"><img src="https://img.shields.io/badge/-paper-b31b1b?logo=arxiv&logoColor=white" height="30" alt="paper"></a><br><a href="https://github.com/agentic-real2sim/agentic_real2sim"><img src="https://img.shields.io/badge/-code-181717?logo=github&logoColor=white" height="30" alt="code"></a><br><a href="https://agentic-real2sim.github.io"><img src="https://img.shields.io/badge/-page-4f46e5?logo=googlechrome&logoColor=white" height="30" alt="page"></a></td></tr>
 <tr><td><a href="https://mirros-lab.github.io/code-as-world"><b>Code-as-World</b></a><br><sub>arXiv 2026 · MirroS Lab</sub></td><td>monocular video, text → executable world code (composition, dynamics, appearance)</td><td align="center"><a href="https://arxiv.org/abs/2608.27549"><img src="https://img.shields.io/badge/-paper-b31b1b?logo=arxiv&logoColor=white" height="30" alt="paper"></a><br><a href="https://github.com/MirroS-Lab/Code-as-World"><img src="https://img.shields.io/badge/-code-181717?logo=github&logoColor=white" height="30" alt="code"></a><br><a href="https://mirros-lab.github.io/code-as-world"><img src="https://img.shields.io/badge/-page-4f46e5?logo=googlechrome&logoColor=white" height="30" alt="page"></a></td></tr>
+<tr><td><a href="https://dagroup-pku.github.io/PyRUA-Lean/DataFarm/"><b>PyRUA-DataFarm</b></a><br><sub>arXiv 2026 · Peking University</sub></td><td>multi-view video, interaction, text → executable simulation task (scene, expert controller, success judge) and photorealistic multi-view robot data</td><td align="center"><a href="https://arxiv.org/abs/2611.05320"><img src="https://img.shields.io/badge/-paper-b31b1b?logo=arxiv&logoColor=white" height="30" alt="paper"></a><br><a href="https://github.com/DAGroup-PKU/PyRUA-Lean/tree/DataFarm"><img src="https://img.shields.io/badge/-code-181717?logo=github&logoColor=white" height="30" alt="code"></a><br><a href="https://dagroup-pku.github.io/PyRUA-Lean/DataFarm/"><img src="https://img.shields.io/badge/-page-4f46e5?logo=googlechrome&logoColor=white" height="30" alt="page"></a></td></tr>
 <tr><td><a href="https://real2gym.github.io/"><b>Real2Gym</b></a><br><sub>arXiv 2026 · Shanghai AI Laboratory</sub></td><td>monocular video → editable Blender/MuJoCo simulation gyms + executable manipulation code</td><td align="center"><a href="https://arxiv.org/abs/2609.37089"><img src="https://img.shields.io/badge/-paper-b31b1b?logo=arxiv&logoColor=white" height="30" alt="paper"></a><br><a href="https://github.com/real2gym/Real2Gym"><img src="https://img.shields.io/badge/-code-181717?logo=github&logoColor=white" height="30" alt="code"></a><br><a href="https://real2gym.github.io/"><img src="https://img.shields.io/badge/-page-4f46e5?logo=googlechrome&logoColor=white" height="30" alt="page"></a></td></tr>
 <tr><td><a href="https://robosimstudio.github.io"><b>RoboSimStudio</b></a><br><sub>arXiv 2026 · UC Berkeley</sub></td><td>monocular video, interaction → editable Newton multi-physics simulation (solver, contact model, parameters)</td><td align="center"><a href="https://arxiv.org/abs/2610.18835"><img src="https://img.shields.io/badge/-paper-b31b1b?logo=arxiv&logoColor=white" height="30" alt="paper"></a><br><a href="https://github.com/robosimstudio/robosimstudio"><img src="https://img.shields.io/badge/-code-181717?logo=github&logoColor=white" height="30" alt="code"></a><br><a href="https://robosimstudio.github.io"><img src="https://img.shields.io/badge/-page-4f46e5?logo=googlechrome&logoColor=white" height="30" alt="page"></a></td></tr>
 <tr><td><a href="https://arxiv.org/abs/2606.02580"><b>SEIG</b></a><br><sub>arXiv 2026 · Cornell University</sub></td><td>single image → editable Blender program</td><td align="center"><a href="https://arxiv.org/abs/2606.02580"><img src="https://img.shields.io/badge/-paper-b31b1b?logo=arxiv&logoColor=white" height="30" alt="paper"></a></td></tr>
@@ -602,6 +603,7 @@ The physics engines and solvers the works in this list build on, with how many w
 - **3D-CoS** — VLMs write Blender code using blueprint planning, RAG over the Blender API, few-shot examples, and part-wise agent workflows.
 - **Agentic Real2Sim** — Agents orchestrate perception tools to recover geometry, poses, motion and physical properties, assemble them in MuJoCo and refine in simulation.
 - **Code-as-World** — An abductive discovery loop turns observations into MuJoCo code, renders it, compares with the observation, and converts discrepancies into structured feedback for code revision.
+- **PyRUA-DataFarm** — The agent grounds the scene and cameras from one calibration episode, synthesizes the SAPIEN or Isaac Sim task, a frozen hidden success judge, and an expert controller, then renders synchronized multi-view rollouts with an edge- and real-image-conditioned video model before independent review certifies admission.
 - **Real2Gym** — Scenes are reconstructed and aligned to the video, demonstrated actions are validated in native physics, and an agent writes and refines manipulation code.
 - **RoboSimStudio** — Built on the Newton physics system; humans or coding agents iteratively edit solver, contact model and parameters to match observed behavior.
 - **SEIG** — General-purpose VLMs edit Blender code stage by stage, rendering and comparing after each stage, without specialized 3D models or differentiable rendering.
